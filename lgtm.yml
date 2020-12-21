@@ -1,0 +1,6 @@
+extraction:
+  cpp:
+    index:
+      build_command:
+        - "cmake -Bbuild -DCMAKE_BUILD_TYPE=Debug"
+        - "cmake --build build"
